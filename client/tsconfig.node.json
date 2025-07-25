@@ -1,0 +1,10 @@
+// client/tsconfig.node.json
+{
+  "compilerOptions": {
+    "module": "ESNext",
+    "target": "ESNext",
+    "moduleResolution": "Node",
+    "types": ["node"]
+  },
+  "include": ["vite.config.ts"]
+}

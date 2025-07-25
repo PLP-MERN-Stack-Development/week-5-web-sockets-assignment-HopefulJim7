@@ -1,0 +1,44 @@
+# 🔧 Node dependencies
+node_modules/
+npm-debug.log*
+pnpm-debug.log*
+
+# 🚀 Build output
+dist/
+build/
+
+# 📂 Environment variables
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+
+# 🧪 Testing files
+coverage/
+*.lcov
+
+# 💅 IDE & OS clutter
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+
+# ⚛️ React specific
+*.log
+*.cache
+.eslintcache
+
+# 📸 Socket.IO session logs (if any)
+session.json
+socket.log
+
+# 💾 MongoDB dump or data files (if used)
+dump/
+*.bson
+*.lock
+
+# ⚙️ Optional: skip frontend dev server output
+frontend/.next/
+frontend/.turbo/
